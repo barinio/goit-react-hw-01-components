@@ -1,13 +1,15 @@
 import { styled } from 'styled-components';
 
 export const Table = styled.table`
-  width: 500px;
+  padding: 5px;
+  max-width: 500px;
   margin: 100px auto;
   box-shadow: 0 0 10px rgb(0, 100, 255);
 `;
 
 export const Capiton = styled.thead`
   background-color: rgb(0, 150, 255);
+  box-shadow: inset 0 -2px 15px 1px blue;
   color: white;
   width: 100%;
   th {
@@ -22,7 +24,7 @@ export const Item = styled.tr`
   td {
     border: 1px solid rgb(0, 150, 211, 0.5);
   }
-  &:nth-child(even) {
+  &:nth-child(odd) {
     background-color: rgb(211, 211, 211, 0.2);
   }
   &:hover {
