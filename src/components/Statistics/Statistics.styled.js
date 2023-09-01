@@ -34,6 +34,8 @@ export const ItemBox = styled.li`
   padding: 25px;
   width: 50px;
   background-color: ${() => randomColor};
-  color: white;
-  text-shadow: black 1px 0 9px;
+  color: gold;
+  font-weight: 500;
+  text-shadow: black 2px 0px 3px, black 0px 2px 3px, black -2px 0px 3px,
+    black 0px -2px 3px;
 `;
